@@ -1,20 +1,35 @@
-# Para esta evaluacion se usa metodos de iniciacion 
+# 🚀 Nombre de tu Proyecto
 
-## elementos extras para la evaluacion
-
-1. **LICENSE**, este es para poder usar una licencia y asi poder cumplir con el extra de la prueba
-
-2. **CONTRIBUTING.md**, este mismo se usa para poner reglas sobre difentes items dentro del trabajo
+Bienvenido al repositorio. Este proyecto no solo se trata de código, sino de construir un entorno de colaboración profesional y respetuoso dentro de **VS Code**.
 
 ---
 
-## elementos de la evaluacion(codigo.)
+## 🛠️ Configuración del Entorno (VS Code)
 
-1. como primer metodo se tiene que abrir la consola e iniciar remotamente
-con el siguiente link 
+Para mantener la armonía y las **buenas conductas** técnicas, sigue estos pasos:
 
-!['https://github.com/VicenteDuoc/evaluacionpractica.git']('https://github.com/VicenteDuoc/evaluacionpractica.git')
+1. **Extensiones:** Al abrir el proyecto, acepta la instalación de las extensiones recomendadas.
+2. **Settings:** Hemos incluido una carpeta `.vscode/` con reglas de formateo. No las sobrescribas localmente para evitar conflictos de estilo.
+3. **Linter:** Si ves una línea roja, ¡no la ignores! Es parte de nuestra conducta de "código limpio".
 
-2. añadir email con **user** y crear una nueva rama **main** en la que se va a trabajar
+---
 
-2. se crea una rama **develop** para poder hacer cambios dentro de la rama
+## 🤝 Buenas Conductas y Convivencia
+
+* **Respeto mutuo:** Tratamos a todos los colaboradores con profesionalismo.
+* **Revisiones de Código:** Las críticas deben ser al código, nunca a la persona. Usa un lenguaje constructivo.
+* **Higiene Git:** No subas archivos innecesarios. Mantén tus mensajes de commit claros: `tipo: descripción corta`.
+
+---
+
+## 🤖 Automatización y CI/CD
+
+Si trabajas con nuestros flujos de trabajo de GitHub Actions, evita el error común de **"No event triggers defined"**. Todo archivo `.yml` debe empezar con sus disparadores:
+
+```yaml
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+    
