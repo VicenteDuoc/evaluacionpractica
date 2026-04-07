@@ -1,0 +1,12 @@
+nombre: Luis Neira
+on: [push]
+    branches: ["main"]
+pull_request:
+  branches: ["main"]
+
+jobs:
+  saludo:
+    runs-on: ubuntu-lastest
+    steps:
+      -name:Paso 1
+       run:echo"¡me salió porfin!"  
