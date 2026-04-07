@@ -32,8 +32,5 @@
 ### **Paso 3: El Pull Request (PR)**
 * Describe tus cambios usando la plantilla de PR.
 * Si hiciste cambios visuales, añade una captura de pantalla directamente en el comentario.
-* **Auto-Review:** Revisa tu propio código en la pestaña de `Source Control` de VS Code antes de subirlo. ¡Te sorprenderá lo que encuentras!
-
----
-
-## 📐 ESTÁNDARES TÉCNICOS
+* **Auto-Review:** Revisa tu propio código en la pestaña de `Source Control` de VS Code antes de subirlo.
+ ¡Te sorprenderá lo que encuentras!
